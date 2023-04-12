@@ -9,20 +9,57 @@
     <body>
         <header>
             <nav>
-                <img src="Images/travel-logo.png" alt="">
+                <img class="header-logo" src="Images/travel-logo.png" alt="Travel logo main logo of this website of course">
                 <div class="nav-left">
                     <ul>
-                        <li><a href="#">Destinations</a></li>
-                        <li><a href="#">About Us</a></li> 
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="about-us.html">About Us</a></li> 
                         <li><a href="#">Call To Action</a></li>
                     </ul>
                     <div class="nav-search">
                         <input class="search-bar" type="text">
-                        <button><i class="fa-regular fa-magnifying-glass icon"></i></button>
+                        <button type="submit" class="btn-search">
+                            <i class="search-icon fa-solid fa-magnifying-glass" style="color: #2F3437;"></i>
+                        </button>
                     </div>
                  </div>
             </nav>
         </header>
+        <main>
+            <section class="hero">
+                <h1 class="hero-h1">Discover <br>Switzerland</h1>
+                <h3 class="hero-h3 gradient-text">- Experience the Beauty and Charm 
+                    <br>of the Alpine Nation</h3>
+                <p class="hero-p">
+                    One of Switzerland's most iconic features is its towering mountains and picturesque<br> landscapes. The Swiss Alps offer endless opportunities for outdoor adventure,<br> including skiing, snowboarding, hiking, mountain biking, and paragliding. In addition<br> to its stunning natural beauty, Switzerland is home to many charming towns and<br> cities, each with its own unique character and attractions</p>
+            </section>
+            <section class="featured">
+                <h3 class="featured-h3">Featured Landmark In <br>Switzerland</h3>
+                <p class="featured-p">Switzerland is home to many iconic landmarks, each with its own unique history and significance.<br> Here are some examples of featured landmarks in Switzerland</p>
+                <div class="featured-img">
+                    <div class="matterhorn">
+                        <img class="matterhorn-img" src="Images/Matterhorn.jpg" alt="">
+                        <h5 class="featured-h5">Matterhorn</h5>
+                    </div>
+
+                    <div class="lake-geneva">
+                        <img class="lake-geneva-img" src="Images/Lake Geneva.jpg" alt="">
+                        <h5 class="featured-h5">Lake Geneva</h5>
+                    </div>
+
+                    <div class="chillon-castle">
+                        <img class="chillon-castle-img" src="Images/Chillon Castle.jpg" alt="">
+                        <h5 class="featured-h5">Chillon Castle</h5>
+                    </div>
+
+                    <div class="jungfraujoch">
+                        <img class="jungfraujoch-img" src="Images/Jungfraujoch.jpg" alt="">
+                        <h5 class="featured-h5">Jungfraujoch</h5>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://kit.fontawesome.com/789ea0eb47.js" crossorigin="anonymous"></script>
         <script src="script.js"></script>
     </body>
 </html>

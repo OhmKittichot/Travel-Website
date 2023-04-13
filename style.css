@@ -33,15 +33,70 @@
     --px24: 24px; 
 }
 
+/* Utility */ 
+
 .gradient-text {
     background: linear-gradient(to right, var(--secondary), var(--primary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.instagram-color {
+    background: linear-gradient(to top, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.light {
+    font-weight: 300;
+}
+
+/* All Page Style */ 
+
 * {
     margin: 0;
     font-family: 'Inter', sans-serif; 
+}
+
+p {
+    font-size: var(--paragraph);
+    color: var(--black75);
+    line-height: 1.3em;
+}
+
+h1 {
+    font-size: var(--h1);
+    color: var(--black);
+}
+
+h2 {
+    font-size: var(--h2);
+    color: var(--black);
+}
+
+h3 {
+    font-size: var(--h3);
+    color: var(--black);
+    line-height: 1.7em;
+}
+
+h4 {
+    font-size: var(--h4);
+    color: var(--black);
+}
+
+h5 {
+    font-size: var(--h5);
+    color: var(--black);
+}
+
+h6 {
+    font-size: var(--h6);
+    color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
 
 img {
@@ -74,13 +129,16 @@ li:last-child {
 
 li a {
     color: var(--black);
-    text-decoration: none;
 }
 
 li a:hover {
     font-size: 1.05em;
     transition: .2s;
     color: var(--primary);
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav-search {
@@ -130,48 +188,46 @@ li a:hover {
     width: 10%;   
 }
 
-/* Hero */
-
-.hero {
-    padding-top: var(--px128);
+.hero, .featured, .travel-tips, .accommodation, .flight, .testimonial {
     text-align: center;
 }
 
-.hero-h1 {
-    font-size: var(--h1);
-    color: var(--black);
+.hero, .featured, .travel-tips, .accommodation, footer {
+    padding-top: var(--px128);    
 }
+
+/* Hero */
+
+/* .hero {
+
+} */
+
+/* .hero-h1 {
+
+} */
 
 .hero-h3 {
     padding-top: var(--px96);    
-    font-weight: 300;
-    font-size: var(--h3);
     color: var(--linear);
 }
 
 .hero-p {
     padding-top: var(--px64);
-    font-size: var(--paragraph);
-    color: var(--black75);
     line-height: 1.3em;
 }
 
 /* Featured */
 
-.featured {
-    padding-top: var(--px128);
-    text-align: center;
-}
+/* .featured {
 
-.featured-h3 {
-    font-size: var(--h3);
-    color: var(--black);
-}
+} */
+
+/* .featured-h3 {
+
+} */
 
 .featured-p {
     padding: var(--px24);
-    font-size: var(--paragraph);
-    color: var(--black75);
 }
 
 .featured-img {
@@ -183,5 +239,4 @@ li a:hover {
 .featured-h5 {
     padding-top: var(--px56);
     color: var(--secondary);
-    font-size: var(--h5);
 }

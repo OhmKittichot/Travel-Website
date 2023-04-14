@@ -10,6 +10,8 @@
     --black75: hsla(203, 8%, 20%, 75%);
     --black50: hsla(203, 8%, 20%, 50%);
     --black25: hsla(203, 8%, 20%, 25%);
+    --black20: hsla(203, 8%, 20%, 20%);
+    --black15: hsla(203, 8%, 20%, 15%);
     --black10: hsla(203, 8%, 20%, 10%);
     --black5: hsla(203, 8%, 20%, 5%); 
     /* Typography */  
@@ -24,6 +26,7 @@
     /* Padding */
     --px256: 256px; 
     --px192: 192px; 
+    --px176: 176px;
     --px128: 128px; 
     --px96: 96px; 
     --px64: 64px; 
@@ -230,13 +233,57 @@ a {
     padding: var(--px24);
 }
 
-.featured-img {
-    padding-top: var(--px64);
+.featured-grid {
+    padding: var(--px64) var(--px176);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 64px;
+}
+
+.featured-img {
+    width: 660px;
+    height: 500px;
+    box-shadow: 0px 186.06px 148.84px var(--black15);
 }
 
 .featured-h5 {
     padding-top: var(--px56);
     color: var(--secondary);
+}
+
+.cards {
+    text-align: left;
+    padding: var(--px64) var(--px176);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.card1, .card2, .card3 {
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 186.06px 148.84px var(--black15);
+    height: 924px;
+}
+
+.card-img {
+    border-radius: 8px 8px 0 0;
+    width: 425px;
+    height: 524px;
+}
+
+.card-img-bigger {
+    width: 435px;    
+}
+
+.cards-content {
+    padding: 32px 25px 0 25px;
+}
+
+.travel-tips-p {
+    padding: var(--px24);
+}
+
+.cards-p {
+    padding-top: 16px;
 }

@@ -58,7 +58,8 @@
 
 * {
     margin: 0;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth; 
 }
 
 p {
@@ -377,12 +378,14 @@ a {
 }
 
 .tab-btn2 {
+    cursor: pointer;
     color: var(--black);
     background: none;
     border: none;
 }
 
 .select-btn1 {
+    cursor: pointer;
     width: 353px;
     height: 95px;
     color: var(--black);
@@ -391,6 +394,7 @@ a {
 }
 
 .select-btn2 {
+    cursor: pointer;
     width: 353px;
     height: 95px;
     color: var(--black);
@@ -403,6 +407,7 @@ a {
 }
 
 .continue-btn {
+    cursor: pointer;
     border: none;
     background: var(--secondary);
     font-weight: 600;
@@ -438,6 +443,7 @@ a {
 }
 
 .gigachad {
+    transform: scaleX(-1);
     border-radius: 50%;
     width: 96px;
     height: 96px;
@@ -473,6 +479,10 @@ footer {
     margin-right: 8px;
 }
 
+.ft-logo {
+    cursor: pointer;
+}
+
 /* Call To Action */
 
 .cta {
@@ -487,10 +497,107 @@ footer {
 }
 
 .cta-btn {
+    cursor: pointer;
     font-weight: 600;
     padding: 24px 48px;
     border: none;
     background: var(--linear);
     color: #fff;
     margin-top: 96px;
+}
+
+/* Destinations Page*/
+
+.destinations-page {
+    margin: var(--px128) var(--px176);
+}
+
+.destinations-h4 {
+    line-height: 2em;
+}
+
+.lucerne, .interlaken, .zurich, .geneva, .zermatt {
+    margin-top: var(--px128);
+}
+
+.lucerne-info, .interlaken-info, .zurich-info, .geneva-info, .zermatt-info {
+    margin-top: var(--px64);
+}
+
+.lucerne-p, .interlaken-p, .zurich-p, .geneva-p, .zermatt-p {
+    margin-top: var(--px24);
+}
+
+.destinations-h3 {
+    margin-top: var(--px192);
+}
+
+/* About Us Page */
+
+.about-us-page {
+    margin: var(--px128) var(--px176) var(--px192) var(--px176);
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us-info {
+    border-radius: 8px;
+    padding: var(--px32) var(--px64);
+    margin: var(--px64) var(--px128) 0 var(--px128);
+    border: 1px solid var(--black25);
+    background: var(--black5);
+    text-align: left;   
+}
+
+.about-us-q {
+    margin-top: var(--px64);
+}
+
+.contact-us {
+    margin: var(--px256) 432px 0 432px;
+}
+
+form {
+    margin-top: var(--px64);
+}
+
+.contact-input {
+    border: 1px solid var(--black10);
+    background: var(--black10);
+    border-radius: 8px;
+    padding: var(--px24);
+    color: var(--black);
+    display: block;
+    width: 93%;
+} 
+
+.select {
+    width: 100%;
+}
+
+label {
+    color: var(--secondary);
+    font-size: var(--h6);
+    font-weight: 600;
+}
+
+textarea {
+    resize: none;
+}
+
+.input-field {
+    margin-top: var(--px64);
+}
+
+.send-btn {
+    padding: 24px 48px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: var(--linear);
+    margin-top: var(--px64);
+    width: 100%;
+    font-weight: 600;
 }

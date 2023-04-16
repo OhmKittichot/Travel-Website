@@ -14,7 +14,7 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="destinations.html">Destinations</a></li> 
-                        <li><a href="#">Call To Action</a></li>
+                        <li><a href="#cta">Call To Action</a></li>
                     </ul>
                     <div class="nav-search">
                         <input class="search-bar" type="text">
@@ -26,41 +26,56 @@
             </nav>
         </header>
 
-        <main>
-            <h3 class="light">About Us</h3>
-            <div>
-                <h5>My Name</h5>
-                <h5>My Mission</h5>
-                <h5>My Profile</h5>
-                <h5>Team Member</h5>
+        <main class="about-us-page">
+            <div class="about-us">
+                <h3 class="light">About Us</h3>
+                <div class="about-us-info">
+                    <h5 class="about-us-q">My Name</h5>
+                    <h5 class="about-us-q">My Mission</h5>
+                    <h5 class="about-us-q">My Profile</h5>
+                    <h5 class="about-us-q">Team Member</h5>
+                </div>
             </div>
 
-            <h3 class="light">Contact Us</h3>
-            <p>Have any questions? or feedback? or anything you want to say? please let me know</p>
-            <form action="">
-                <label for="name">Your Name</label>
-                <input name="name" type="text" placeholder="Name">
 
-                <label for="email">Your Email</label>
-                <input name="email" type="email" placeholder="Email">
+            <div class="contact-us">
+                <h3 class="light">Contact Us</h3>
+                <p>Have any questions? or feedback? or anything you want to say? <br>please let me know</p>
+                <form action="">
+                    <div class="input-field">
+                        <label for="name">Your Name</label>
+                        <input class="contact-input" name="name" type="text" placeholder="Name">
+                    </div>
 
-                <label for="topic">What Topic?</label>
-                <select name="topic" id="">
-                    <option value="topic">Topic</option>
-                    <option value="feedback">Feedback</option>
-                    <option value="question">Question</option>
-                    <option value="other">Other</option>
-                </select>
+                    <div class="input-field">
+                        <label for="email">Your Email</label>
+                        <input class="contact-input" name="email" type="email" placeholder="Email">
+                    </div>
+                    
 
-                <label for="message">Your Message</label>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Description">
-                </textarea>
-                <button type="submit">Send Message <i class="fa-solid fa-paper-plane" style="color: #fff;"></i></button>
-            </form>
+                    <div class="input-field">
+                        <label for="topic">What Topic?</label>
+                        <select class="contact-input select" name="topic" id="">
+                            <option value="topic">Topic</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="question">Question</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="message">Your Message</label>
+                        <textarea class="contact-input" name="message" id="" cols="30" rows="10" placeholder="Description">
+                        </textarea>
+                    </div>
+
+                    <button class="send-btn btn" type="submit">Send Message <i class="fa-solid fa-paper-plane" style="color: #fff;"></i></button>
+                </form>
+             </div>
         </main>
 
         <footer>
-            <section class="cta">
+            <section class="cta" id="cta">
                 <div class="cta-info">
                     <h4 class="cta-h4 light">Explore Our Top Destinations</h4>
                     <button class="cta-btn btn">Explore Now</button>
@@ -75,7 +90,7 @@
                     <p class="ft-contact-p">Email: <a href="mailto: ngeaapan@gmail.com">ngeaapan@gmail.com</a></p>
                 </div>
                 <div class="contact-icon">
-                    <p class="ft-p">Contact Us(Me): <i class="ft-icon fa-brands fa-github" style="color: #000;"></i> <i class="ft-icon fa-brands fa-facebook" style="color: #1778F2;"></i> <i class="ft-icon fa-brands fa-twitter" style="color: #1DA1F2;"></i> <i class="instagram-color fa-brands fa-square-instagram"></i></p>
+                    <p class="ft-p">Contact Us(Me): <i class="ft-logo ft-icon fa-brands fa-github" style="color: #000;"></i> <i class="ft-logo ft-icon fa-brands fa-facebook" style="color: #1778F2;"></i> <i class="ft-logo ft-icon fa-brands fa-twitter" style="color: #1DA1F2;"></i> <i class="ft-logo instagram-color fa-brands fa-square-instagram"></i></p>
                 </div>
             </section>
         </footer>

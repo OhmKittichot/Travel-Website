@@ -1,6 +1,6 @@
-# Travel-Website (Switzerland) 1st (the project is on Netlify)
+# Travel-Website (Switzerland) 1st 
 
-To practice HTML CSS and Javascript 1st project that I start
+To practice HTML CSS and Javascript 1st project that I start (the project is on Netlify)
 
 my design https://www.figma.com/file/lpoMQDOw7ZSnRYfb2Z5o8T/Travel-Website-%231?node-id=8-2&t=sT9VTJJv9mzp7yDB-0
 

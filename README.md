@@ -1,4 +1,4 @@
-# Travel-Website (Switzerland) 1st
+# Travel-Website (Switzerland) 1st (the project is on Netlify)
 
 To practice HTML CSS and Javascript 1st project that I start
 
